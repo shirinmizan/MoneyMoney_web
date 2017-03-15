@@ -33,7 +33,7 @@ function makePie() {
     //clear the div
     $("#chart").empty();
 
-    //////This example is not sorted by date so lets do that
+    //////This example is not sorted by date so lets do that again
     var datar = getData();
 
     datar = datar.sort(sortByDateAscending);
